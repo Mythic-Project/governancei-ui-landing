@@ -38,7 +38,7 @@ const SocialIcons = (props: Props) => {
         <a
           rel='noreferrer'
           target='_blank'
-          href='https://github.com/solana-labs/governance-ui'
+          href='https://github.com/Mythic-Project/governance-ui'
           className='shadow-sm duration-500 hover:scale-125 focus:scale-125'
           onClick={() => trackClick('github', props.trackingContext)}
         >

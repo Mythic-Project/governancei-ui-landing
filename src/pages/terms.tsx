@@ -234,6 +234,36 @@ export default function Terms() {
                   effectuating token transactions on the Solana blockchain.
                 </li>
                 <li>
+                  <span className='underline'>Token-2022.</span>
+                  The Interface may enable optional features of Solana&rsquo;s
+                  SPL Token v2 (
+                  <strong>
+                    {' '}
+                    &ldquo;
+                    <em>Token-2022</em> &rdquo;
+                  </strong>
+                  ), such as transfer fees, freeze authorities, or confidential
+                  transfers. These features are provided under open-source
+                  licenses (e.g., Apache 2.0) and are not controlled, audited,
+                  or guaranteed by the Site Operator. By choosing to enable or
+                  use these features, you acknowledge that (a) they introduce
+                  additional risk and complexity compared to earlier token
+                  standards, and (b) the Site Operator disclaims all liability
+                  arising from your configuration or use of these features. Some
+                  Token-2022 extensions allow privileged parties (e.g., DAO
+                  administrators or designated authorities) to modify token
+                  parameters, including freezing accounts, imposing transfer
+                  fees, or restricting transfers. You acknowledge and accept
+                  that: (i) if a single entity, private key, or limited group
+                  holds these privileges, they may unilaterally exercise control
+                  over token circulation. (ii) The Site Operator is not
+                  responsible for any governance decisions, misuse of authority,
+                  or unauthorized actions taken by administrators or other DAO
+                  participants, (iii) You are solely responsible for securing
+                  any private keys associated with administering these controls.
+                  Realms does not store or manage these keys.
+                </li>
+                <li>
                   <span className='underline'>Our Relationship.</span>&nbsp; You
                   acknowledge and agree that the Site Operator is an online
                   platform provider and that the Site Operator does not direct
@@ -865,7 +895,7 @@ export default function Terms() {
               Site Operator at admin@realms.today.
             </li>
           </ol>
-          <p>Last Updated September 2024</p>
+          <p>Last Updated January 2025</p>
         </div>
       </CenteredContent>
     </div>

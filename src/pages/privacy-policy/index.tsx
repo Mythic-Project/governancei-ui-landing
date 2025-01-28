@@ -149,6 +149,12 @@ export default function PrivacyPolicy() {
             </span>
             <span className='font-bold'>Services</span>
             <span>.&rdquo; </span>
+            <span>
+              This Privacy Notice also applies to any optional features or
+              programs we enable within our Services, including new
+              functionality introduced by SPL Token v2 (Token-2022) on the
+              Solana blockchain.
+            </span>
           </p>
           <p>
             <span></span>
@@ -167,11 +173,20 @@ export default function PrivacyPolicy() {
               collect information, such as your cryptocurrency wallet address
               (which some legal jurisdictions may consider personal
               information), and that information will be stored on a public
-              blockchain that we do not control. A smart contract is computer
-              code that automatically processes events when certain conditions
-              are met; for example, when a proposal is presented to a
-              member&rsquo;s DAO and after all needed votes are made by
-              respective DAO member, the smart contract will execute the
+              blockchain that we do not control. Additionally, if you enable or
+              interact with advanced features of Solana’s SPL Token v2
+              (“Token-2022”)—such as transfer fees, freeze authority, or
+              confidential transfers—please be aware that such actions may
+              record further details on the blockchain, including partially
+              confidential transaction data or administrative control records.
+              These details may still be public, permanent, and outside our
+              control due to the immutable nature of blockchain. We do not
+              manage or store private keys granting freeze or fee authority, nor
+              can we remove or modify any data once recorded on-chain. A smart
+              contract is computer code that automatically processes events when
+              certain conditions are met; for example, when a proposal is
+              presented to a member&rsquo;s DAO and after all needed votes are
+              made by respective DAO member, the smart contract will execute the
               proposed action if the proposal passed. In these situations, your
               personal information will be stored on that blockchain through the
               execution of a smart contract and may not be able to be modified
@@ -254,7 +269,13 @@ export default function PrivacyPolicy() {
                 <span>
                   &rdquo;), such as your cryptocurrency wallet address (which
                   may be considered personal information in some legal
-                  jurisdictions).
+                  jurisdictions). If you choose to configure SPL Token v2
+                  (“Token-2022”) extensions (for example, enabling fees or
+                  freeze authority), certain additional settings or metadata may
+                  be recorded on the blockchain alongside your wallet address.
+                  While this metadata is not collected or stored by Realms Today
+                  Ltd off-chain, it may still be linked to your on-chain
+                  activity and wallet.
                 </span>
               </li>
             </ul>
@@ -593,10 +614,17 @@ export default function PrivacyPolicy() {
               </span>
             </li>
             <li>
-              <span>
-                Allowing you to register for events.
-                <br />
-              </span>
+              <span>Allowing you to register for events.</span>
+              <li>
+                <span>
+                  Where you elect to use Token-2022&rsquo;s optional
+                  functionalities, any additional on-chain data (e.g., fee
+                  parameters, freeze transactions) is processed by the
+                  underlying blockchain and not actively used by us for any
+                  separate analytics, marketing, or profiling purposes unless
+                  otherwise disclosed.
+                </span>
+              </li>
             </li>
           </ul>
           <ol className='list-[lower-alpha]' start={2}>
@@ -1040,6 +1068,22 @@ export default function PrivacyPolicy() {
                   </a>
                 </span>
                 <span>.</span>
+              </li>
+            </ul>
+            <a id='id.3as4poj'></a>
+            <ul className='list-disc'>
+              <li id='h.1pxezwc'>
+                <span className='font-bold'>Token-2022</span>
+                <span></span>
+                <span>
+                  . Any data written to the Solana blockchain via SPL Token v2
+                  (Token-2022) is immutable and outside of our control. While we
+                  can honor valid requests to delete or anonymize data from our
+                  internal systems, we cannot remove or alter any transaction
+                  records or metadata stored on a public blockchain, including
+                  but not limited to records related to Token-2022 transfer
+                  fees, freeze actions, or confidential transfers.
+                </span>
               </li>
             </ul>
             <p>
@@ -1631,6 +1675,16 @@ export default function PrivacyPolicy() {
               </span>
             </li>
           </ul>
+          <p>
+            <span>
+              Use of Token-2022 Features. Please review our Terms of Service
+              regarding the risks and responsibilities associated with SPL Token
+              v2. By using or enabling any advanced token functionalities, you
+              acknowledge that certain data handling may be governed by the
+              immutable nature of the blockchain, as stated in this Privacy
+              Notice.
+            </span>
+          </p>
           <p id='h.nmf14n'>
             <span></span>
           </p>
@@ -1684,7 +1738,7 @@ export default function PrivacyPolicy() {
               <a id='id.2lwamvv'></a>
             </p>
             <p className='mt-4'>
-              <span>Last Updated: September 2024</span>
+              <span>Last Updated: January 2025</span>
             </p>
           </div>
         </div>
